@@ -1,0 +1,117 @@
+<!-- <div id="add-post"> -->
+
+<dialog id="dialog" class="mdl-dialog">
+  <h3 class="mdl-dialog__title">MDL Dialog</h3>
+  <div class="mdl-dialog__content">
+
+    <form action="#">
+        <div class="mdl-textfield mdl-js-textfield">
+          <input class="mdl-textfield__input" type="text" id="sample1">
+          <label class="mdl-textfield__label" for="sample1">Name</label>
+        </div>
+        <div class="mdl-textfield mdl-js-textfield">
+            <input class="mdl-textfield__input" type="text" id="sample1">
+            <label class="mdl-textfield__label" for="sample1">wissenschaftl. Titel</label>
+        </div>
+        <div class="mdl-textfield mdl-js-textfield">
+            <input class="mdl-textfield__input" type="text" id="sample1">
+            <label class="mdl-textfield__label" for="sample1">Familie</label>
+        </div>
+        <br>
+        <div class="mdl-textfield mdl-js-textfield">
+            <input class="mdl-textfield__input" type="text" id="sample1">
+            <label class="mdl-textfield__label" for="sample1">Fundort</label>
+          </div>
+        <br>
+        <div class="mdl-textfield mdl-js-textfield">
+            <input class="mdl-textfield__input" type="text" id="sample1">
+            <label class="mdl-textfield__label" for="sample1">Datum</label>
+        </div>
+        <br>
+        <div class="mdl-textfield mdl-js-textfield">
+            <input class="mdl-textfield__input" type="text" id="sample1">
+            <label class="mdl-textfield__label" for="sample1">Bild</label>
+          </div>
+          <body>
+            <button class="save-button" id="show-dialog" type="button" class="mdl-button">Speichern</button>
+            <dialog class="mdl-dialog">
+              <h4 class="mdl-dialog__title">Soll der Post jetzt gespeichert werden?</h4>
+              <!-- <div class="mdl-dialog__content">
+                <p>
+                  Allowing us to collect data will let us get you the information you want faster.
+                </p>
+              </div> -->
+              <div class="mdl-dialog__actions">
+                <button type="button" class="mdl-button">Agree</button>
+                <button type="button" class="mdl-button close">Disagree</button>
+              </div>
+            </dialog>
+          </body>     
+    </form>
+ </div>
+ <div class="mdl-dialog__actions">
+    <button type="button" class="mdl-button">Close</button>
+    <button type="button" class="mdl-button" disabled>Disabled action</button>
+  </div>
+</dialog>
+
+
+        <!-- <form action="#">
+            <div class="mdl-textfield mdl-js-textfield">
+              <input class="mdl-textfield__input" type="text" id="sample1">
+              <label class="mdl-textfield__label" for="sample1">Name</label>
+            </div>
+            <div class="mdl-textfield mdl-js-textfield">
+                <input class="mdl-textfield__input" type="text" id="sample1">
+                <label class="mdl-textfield__label" for="sample1">wissenschaftl. Titel</label>
+            </div>
+            <div class="mdl-textfield mdl-js-textfield">
+                <input class="mdl-textfield__input" type="text" id="sample1">
+                <label class="mdl-textfield__label" for="sample1">Familie</label>
+            </div>
+            <br>
+            <div class="mdl-textfield mdl-js-textfield">
+                <input class="mdl-textfield__input" type="text" id="sample1">
+                <label class="mdl-textfield__label" for="sample1">Fundort</label>
+              </div>
+            <br>
+            <div class="mdl-textfield mdl-js-textfield">
+                <input class="mdl-textfield__input" type="text" id="sample1">
+                <label class="mdl-textfield__label" for="sample1">Datum</label>
+            </div>
+            <br>
+            <div class="mdl-textfield mdl-js-textfield">
+                <input class="mdl-textfield__input" type="text" id="sample1">
+                <label class="mdl-textfield__label" for="sample1">Bild</label>
+              </div>
+              <body>
+                <button class="save-button" id="show-dialog" type="button" class="mdl-button">Speichern</button>
+                <dialog class="mdl-dialog">
+                  <h4 class="mdl-dialog__title">Soll der Post jetzt gespeichert werden?</h4>
+                  <!-- <div class="mdl-dialog__content">
+                    <p>
+                      Allowing us to collect data will let us get you the information you want faster.
+                    </p>
+                  </div> -->
+                  <!-- <div class="mdl-dialog__actions">
+                    <button type="button" class="mdl-button">Agree</button>
+                    <button type="button" class="mdl-button close">Disagree</button>
+                  </div>
+                </dialog>
+                <script>
+                  var dialog = document.querySelector('dialog');
+                  var showDialogButton = document.querySelector('#show-dialog');
+                  if (! dialog.showModal) {
+                    dialogPolyfill.registerDialog(dialog);
+                  }
+                  showDialogButton.addEventListener('click', function() {
+                    dialog.showModal();
+                  });
+                  dialog.querySelector('.close').addEventListener('click', function() {
+                    dialog.close();
+                  });
+                </script>
+              </body>
+              
+    </form>
+</div> -->

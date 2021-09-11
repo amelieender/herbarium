@@ -34,6 +34,7 @@
     left: 0;
     padding: 30px;
     padding-bottom: 40px;
+    color: white;
 }
 
 .floating-button {
@@ -54,6 +55,10 @@
 }
 
 .mdl-button{
+    color: white;
+}
+
+.mdl-button--accent.mdl-button--accent.mdl-button--raised, .mdl-button--accent.mdl-button--accent.mdl-button--fab{
     color: white;
 }
 

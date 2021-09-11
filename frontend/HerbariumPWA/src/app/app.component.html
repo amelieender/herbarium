@@ -3,7 +3,7 @@
   <span class="mdl-layout-title">Herbarium</span>
 </div>
 <main class="mdl-layout__content mat-typography">
-  <div id="create-post">
+  <!-- <div id="create-post">
     <form>
       <div class="input-section mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
         <input class="mdl-textfield__input" type="text" id="title">
@@ -26,8 +26,8 @@
         </button>
       </div>
     </form>
-  </div>
-    <img src="../assets/herbarium-banner.jpg" alt="Banner mit Blättern" class="main-image">
+  </div> -->
+    <img src="../assets/herbarium-banner2.jpg" alt="Banner mit Blättern" class="main-image">
   <div class="page-content">
     <h5 class="text-center mdl-color-text--primary">Mein Herbarium</h5>
     <div id="shared-moments">
@@ -39,13 +39,13 @@
   </button>  
   </div>
   <div class="floating-button">
-    <button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored">
+    <button routerLink="./add" class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored">
       <i class="material-icons">add</i>
     </button>
   </div>
   <div id="confirmation-toast" aria-live="assertive" aria-atomic="true" aria-relevant="text" class="mdl-snackbar mdl-js-snackbar">
     <div class="mdl-snackbar__text"></div>
-    <button type="button" class="mdl-snackbar__action"></button>
+    <button type="button" class="mdl-snackbar__action" ></button>
   </div>
 </main>
 <router-outlet></router-outlet>
